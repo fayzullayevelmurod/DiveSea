@@ -191,6 +191,13 @@
 } 
 
 @media only screen and (max-width: 576px) {
+
+    .home {
+        .home_slider {
+            max-width: 100%;
+        }
+    }
+
     .marketplace {
 
         .marketplace_btns {
