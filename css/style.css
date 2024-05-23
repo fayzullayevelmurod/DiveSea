@@ -300,4 +300,61 @@ header .header_btns {
 }
 .marketplace .main_card {
   width: calc(25% - 30px);
+}
+.marketplace .marketplace_cards_link {
+  margin-top: 100px;
+}
+.marketplace .marketplace_cards_link a {
+  font-size: 17.67px;
+  font-weight: 500;
+  line-height: 39.92px;
+  letter-spacing: -0.0883501619px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #ACADB9;
+}
+
+.create {
+  margin-bottom: 100px;
+}
+.create .create_blocks {
+  border-radius: 40px;
+  background: #141416;
+}
+.create .create_img {
+  margin: 30px 45px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 18.82px 11.76px 58.81px 0px rgba(189, 124, 34, 0.4);
+}
+.create h3 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 58.5px;
+  letter-spacing: 0.01em;
+  margin-bottom: 12px;
+  color: #FFFFFF;
+}
+.create p {
+  font-size: 20.27px;
+  font-weight: 500;
+  line-height: 26.35px;
+  letter-spacing: 0.01em;
+  color: #D4D4D4;
+  margin-bottom: 50px;
+}
+.create .create_text {
+  padding: 45px 66px;
+}
+.create .create_btns {
+  gap: 30px;
+}
+.create .main_btn_two {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+.create .main_btn {
+  color: #141416;
+  background: white;
 }/*# sourceMappingURL=style.css.map */
