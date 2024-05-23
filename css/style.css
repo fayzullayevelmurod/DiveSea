@@ -271,4 +271,33 @@ header .header_btns {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.marketplace {
+  padding: 132px 0;
+}
+.marketplace h3 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 26.92px;
+  color: #C5C5C5;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.marketplace .marketplace_btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin-bottom: 100px;
+}
+.marketplace .marketplace_btns button {
+  gap: 9px;
+}
+.marketplace .marketplace_cards {
+  flex-wrap: wrap;
+  gap: 65px 40px;
+}
+.marketplace .main_card {
+  width: calc(25% - 30px);
 }/*# sourceMappingURL=style.css.map */
