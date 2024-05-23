@@ -1,3 +1,18 @@
+let burger = document.querySelector('.burger');
+let media_menu = document.querySelector('.media_menu');
+let body = document.querySelector('body');
+let close_btn = document.querySelector('.close_btn');
+
+burger.addEventListener('click', () => {
+  media_menu.classList.add('active');
+  body.classList.add('active');
+})
+
+close_btn.addEventListener('click', () => {
+  media_menu.classList.remove('active');
+  body.classList.remove('active');
+})
+
 // home_slider
 let swiper = new Swiper(".homeSwiper", {
     spaceBetween: 20,
