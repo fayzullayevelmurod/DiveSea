@@ -48,9 +48,20 @@ address {
   overflow: hidden;
 }
 
+.main_btn {
+  font-size: 16.17px;
+  font-weight: 600;
+  line-height: 24.26px;
+  color: #FFFFFF;
+  height: 57px;
+  padding: 15px 25px;
+  border-radius: 16px;
+  background: #141416;
+}
+
 .main_container {
-  max-width: 1380px;
-  padding: 0 10px;
+  max-width: 1305px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 
@@ -67,4 +78,38 @@ label {
   margin: 0;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+header {
+  margin-top: 46px;
+}
+header nav {
+  gap: 57px;
+}
+header .header_logo {
+  flex-shrink: 0;
+}
+header ul {
+  gap: 53px;
+}
+header ul a {
+  font-family: "Inter", sans-serif;
+  font-size: 17.83px;
+  font-weight: 500;
+  line-height: 26.74px;
+  color: #606060;
+}
+header .header_search label {
+  height: 57px;
+  background: #EDEDED;
+  border-radius: 14px;
+  padding: 18px 22px;
+  gap: 25px;
+}
+header .header_search input {
+  background: transparent;
+  border: none;
+}
+header .header_btns {
+  gap: 30px;
 }/*# sourceMappingURL=style.css.map */

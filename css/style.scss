@@ -80,9 +80,20 @@ address {
     overflow: hidden;
 }
 
+.main_btn {
+    font-size: 16.17px;
+    font-weight: 600;
+    line-height: 24.26px;
+    color: #FFFFFF;
+    height: 57px;
+    padding: 15px 25px;
+    border-radius: 16px;
+    background: #141416;
+}
+
 .main_container {
-    max-width: 1380px;
-    padding: 0 10px;
+    max-width: 1305px;
+    padding: 0 30px;
     margin: 0 auto;
 }
 
@@ -102,5 +113,52 @@ label {
     padding-bottom: 0;
 }
 // bootstrap
+
+
+// header
+header {
+    margin-top: 46px;
+
+    nav {
+        gap: 57px;
+    }
+
+    .header_logo {
+        flex-shrink: 0;
+    }
+
+    ul {
+        gap: 53px;
+
+        a {
+            font-family: 'Inter', sans-serif;
+            font-size: 17.83px;
+            font-weight: 500;
+            line-height: 26.74px;
+            color: #606060;
+        }
+    }
+
+    .header_search {
+        label {
+            height: 57px;
+            background: #EDEDED;
+            border-radius: 14px;
+            padding: 18px 22px;
+            gap: 25px;
+        }
+
+        input {
+            background: transparent;
+            border: none;
+        }
+    }
+
+    .header_btns {
+        gap: 30px;
+    }
+}
+// header
+
 
 @import './responsive';
