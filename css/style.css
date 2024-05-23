@@ -26,6 +26,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  background: #F9F9F9;
 }
 
 input {
@@ -52,11 +53,23 @@ address {
   font-size: 16.17px;
   font-weight: 600;
   line-height: 24.26px;
-  color: #FFFFFF;
   height: 57px;
   padding: 15px 25px;
   border-radius: 16px;
+  color: #FFFFFF;
   background: #141416;
+}
+
+.main_btn_two {
+  background: transparent;
+  border: 1px solid #141416;
+  color: #141416;
+  font-size: 16.17px;
+  font-weight: 600;
+  line-height: 24.26px;
+  height: 57px;
+  padding: 15px 25px;
+  border-radius: 16px;
 }
 
 .main_container {
@@ -78,6 +91,65 @@ label {
   margin: 0;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+.home_slider_btns {
+  padding: 21px;
+  border-radius: 17.25px;
+  box-shadow: 0px 43.12px 34.49px -25.87px rgba(15, 15, 15, 0.22);
+  background: rgb(252, 252, 253);
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.home_slider_btns span {
+  width: 2px;
+  color: #E6E8EC;
+}
+.home_slider_btns .swiper-button-disabled svg path {
+  fill: #929292;
+}
+
+.main_card {
+  padding: 15px;
+  border-radius: 23.48px;
+  box-shadow: 38.82px 11.76px 58.81px 0px rgba(199, 199, 199, 0.6);
+  background: rgb(255, 255, 255);
+}
+.main_card .main_card_img img {
+  width: 100%;
+}
+.main_card .main_card_img .main_card_img_text {
+  top: 15px;
+  right: 10px;
+  font-size: 14.12px;
+  font-weight: 500;
+  line-height: 21.17px;
+  letter-spacing: 0.1176260412px;
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 9px 15px;
+  box-shadow: 0px 4.71px 14.12px 0px rgba(28, 29, 32, 0.08);
+  -webkit-backdrop-filter: blur(4.71px);
+          backdrop-filter: blur(4.71px);
+  background: rgba(28, 29, 32, 0.35);
+}
+.main_card h6 {
+  font-size: 21.17px;
+  font-weight: 600;
+  line-height: 29.64px;
+  color: #141416;
+  margin: 18px 0 14px;
+}
+.main_card .main_card_bottom_text {
+  gap: 5px;
+}
+.main_card .main_card_icon h6 {
+  margin: 0;
+  font-size: 16.47px;
+  font-weight: 500;
+  line-height: 24.7px;
+  color: #141416;
 }
 
 header {
@@ -112,4 +184,91 @@ header .header_search input {
 }
 header .header_btns {
   gap: 30px;
+}
+
+.home {
+  padding: 110px 0 150px;
+}
+.home .home_text {
+  max-width: 568px;
+}
+.home .home_btns {
+  gap: 23px;
+}
+.home .home_bg {
+  right: 0;
+}
+.home .line {
+  width: 195px;
+  height: 1px;
+  background: #201F1F;
+  opacity: 0.2;
+}
+.home h1 {
+  margin: 10px 0 16px;
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 90px;
+  letter-spacing: -3px;
+  color: #141416;
+}
+.home p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.home .home_btns {
+  margin: 45px 0 82px;
+}
+.home .home_statistic {
+  gap: 65px;
+}
+.home .home_statistic h6 {
+  font-size: 36.77px;
+  font-weight: 600;
+  line-height: 45.96px;
+  color: #141416;
+}
+.home .home_statistic span {
+  width: auto;
+  font-family: "Inter", sans-serif;
+  font-size: 12.26px;
+  font-weight: 500;
+  line-height: 18.39px;
+  margin-top: 6px;
+}
+.home .home_slider {
+  max-width: 391px;
+  gap: 50px;
+}
+.home .home_slider .homeSwiper {
+  width: 100%;
+}
+.home .home_slider .homeSwiper img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.nft {
+  background: #F1F1F1;
+  padding: 70px 0;
+}
+.nft h3 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 26.92px;
+  color: #C5C5C5;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.nft .nftSwiper {
+  padding: 50px 0;
+}
+.nft .home_slider_btns {
+  margin: 50px auto 0;
+  width: 166px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

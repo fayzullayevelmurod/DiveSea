@@ -58,6 +58,7 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     font-style: normal;
+    background: #F9F9F9;
 }
 
 input {
@@ -84,11 +85,23 @@ address {
     font-size: 16.17px;
     font-weight: 600;
     line-height: 24.26px;
-    color: #FFFFFF;
     height: 57px;
     padding: 15px 25px;
     border-radius: 16px;
+    color: #FFFFFF;
     background: #141416;
+}
+
+.main_btn_two {
+    background: transparent;
+    border: 1px solid #141416;
+    color: #141416;
+    font-size: 16.17px;
+    font-weight: 600;
+    line-height: 24.26px;
+    height: 57px;
+    padding: 15px 25px;
+    border-radius: 16px;
 }
 
 .main_container {
@@ -114,6 +127,78 @@ label {
 }
 // bootstrap
 
+.home_slider_btns {
+    padding: 21px;
+    border-radius: 17.25px;
+    box-shadow: 0px 43.12px 34.49px -25.87px rgba(15, 15, 15, 0.22);
+    background: rgb(252, 252, 253);
+    @include flex-center();
+    gap: 25px;
+
+    span {
+        width: 2px;
+        color: #E6E8EC;
+    }
+
+    .swiper-button-disabled {
+        svg {
+            path {
+                fill: #929292;
+            }
+        }
+    }
+}
+
+
+.main_card {
+    padding: 15px;
+    border-radius: 23.48px;
+    box-shadow: 38.82px 11.76px 58.81px 0px rgba(199, 199, 199, 0.6);
+    background: rgb(255, 255, 255);
+
+    .main_card_img {
+        img {
+            width: 100%;
+        }
+
+        .main_card_img_text {
+            top: 15px;
+            right: 10px;
+            font-size: 14.12px;
+            font-weight: 500;
+            line-height: 21.17px;
+            letter-spacing: 0.11762604117393494px;  
+            color: #FFFFFF;
+            border-radius: 10px;
+            padding: 9px 15px;
+            box-shadow: 0px 4.71px 14.12px 0px rgba(28, 29, 32, 0.08);
+            backdrop-filter: blur(4.71px);
+            background: rgba(28, 29, 32, 0.35);
+        }
+    }
+
+    h6 {
+        font-size: 21.17px;
+        font-weight: 600;
+        line-height: 29.64px;
+        color: #141416;
+        margin: 18px 0 14px;
+    }
+
+    .main_card_bottom_text {
+        gap: 5px;
+    }
+
+    .main_card_icon {
+        h6 {
+            margin: 0;
+            font-size: 16.47px;
+            font-weight: 500;
+            line-height: 24.7px;
+            color: #141416;
+        }
+    }
+}
 
 // header
 header {
@@ -159,6 +244,112 @@ header {
     }
 }
 // header
+
+// home
+.home {
+    padding: 110px 0 150px;
+
+
+    .home_text {
+        max-width: 568px;
+    }
+
+    .home_btns {
+        gap: 23px;
+    }
+
+    .home_bg {
+        right: 0;
+    }
+
+    .line {
+        width: 195px;
+        height: 1px;
+        background: #201F1F;
+        opacity: 0.2;
+    }
+
+    h1 {
+        margin: 10px 0 16px;
+        font-size: 75px;
+        font-weight: 600;
+        line-height: 90px;
+        letter-spacing: -3px;
+        color: #141416;
+    }
+
+    p {
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .home_btns {
+        margin: 45px 0 82px;
+    }
+
+    .home_statistic {
+        gap: 65px;
+
+        h6 {
+            font-size: 36.77px;
+            font-weight: 600;
+            line-height: 45.96px;
+            color: #141416;
+        }
+
+        span {
+            width: auto;
+            font-family: 'Inter',sans-serif;
+            font-size: 12.26px;
+            font-weight: 500;
+            line-height: 18.39px;
+            margin-top: 6px;
+        }
+    }
+
+    .home_slider {
+        max-width: 391px;
+        gap: 50px;
+
+        .homeSwiper {
+            width: 100%;
+
+            img {
+                width: 100%;
+                border-radius: 25px;
+            }
+        }
+    }
+}
+// home
+
+// nft
+.nft {
+    background: #F1F1F1;
+    padding: 70px 0;
+
+    h3 {
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 26.92px;
+        color: #C5C5C5;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .nftSwiper {
+        padding: 50px 0;
+    }
+
+    .home_slider_btns {
+        margin: 50px auto 0;
+        width: 166px;
+        @include flex-full-center();
+    }
+}
+// nft
 
 
 @import './responsive';
