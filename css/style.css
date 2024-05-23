@@ -388,4 +388,162 @@ footer .footer_bottom p {
 }
 footer .footer_bottom .social_media {
   gap: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  header ul {
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 993px) {
+  header {
+    margin: 0;
+  }
+  header nav ul {
+    display: none !important;
+  }
+  header .main_container {
+    padding: 30px 0;
+    margin: 0 30px;
+    border-bottom: 1px solid #CBCBCB;
+  }
+  .home {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .home .home_bg {
+    bottom: 0;
+  }
+  .home h1 {
+    font-size: 47px;
+    line-height: 57px;
+  }
+  .home p {
+    font-size: 11px;
+    line-height: 12px;
+  }
+  .home .home_statistic {
+    gap: 25px;
+    justify-content: center;
+  }
+  .home .home_statistic h6 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .home .home_btns {
+    margin: 20px 0;
+    justify-content: center;
+  }
+  .nft h3 {
+    font-size: 30px;
+    line-height: 47px;
+    margin-bottom: 15px;
+  }
+  .nft .home_slider_btns {
+    margin: 15px auto 0 auto;
+  }
+  .nft .main_btn {
+    border-radius: 5px;
+    height: 40px;
+    font-size: 9px;
+    line-height: 15px;
+    padding: 5px 20px;
+  }
+  .marketplace {
+    padding: 50px 0;
+  }
+  .marketplace h3 {
+    font-size: 30px;
+    line-height: 47px;
+    margin-bottom: 15px;
+  }
+  .marketplace .marketplace_btns {
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .marketplace .marketplace_btns button {
+    border-radius: 5px;
+    height: 40px;
+    padding: 5px 10px;
+  }
+  .marketplace .marketplace_cards {
+    gap: 30px;
+  }
+  .marketplace .main_card {
+    width: calc(33.3333333333% - 20px);
+  }
+  .marketplace .main_card .main_btn {
+    border-radius: 5px;
+    height: 40px;
+    font-size: 9px;
+    line-height: 15px;
+    padding: 5px 20px;
+  }
+  .marketplace .marketplace_cards_link {
+    margin-top: 20px;
+  }
+  .create {
+    position: relative;
+    margin-bottom: 250px;
+  }
+  .create h3 {
+    font-size: 30px;
+    line-height: 47px;
+    margin-bottom: 15px;
+  }
+  .create p {
+    font-size: 11px;
+    line-height: 12px;
+    margin-bottom: 20px;
+  }
+  .create .create_blocks {
+    padding: 21px 40px 80px 40px;
+    border-radius: 20px;
+  }
+  .create .create_text {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+  }
+  .create .create_btns {
+    justify-content: center;
+    gap: 10px;
+  }
+  .create .create_btns button {
+    border-radius: 5px;
+    height: 40px;
+    font-size: 9px;
+    line-height: 15px;
+    padding: 5px 20px;
+  }
+  .create .create_img {
+    width: 266px;
+    position: absolute;
+    bottom: -60%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  footer {
+    padding: 30px 0;
+  }
+  footer .main_container {
+    flex-direction: column;
+  }
+  footer .footer_link {
+    gap: 25px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .marketplace .main_card {
+    width: calc(50% - 15px);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .marketplace .marketplace_btns {
+    flex-wrap: wrap;
+  }
+  .marketplace .main_card {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

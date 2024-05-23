@@ -1,3 +1,204 @@
-@media only screen and (max-width: 993px) {
-    
+@media only screen and (max-width: 1200px) {
+    header {
+        ul {
+            gap: 30px;
+        }
+    }
 }
+
+@media only screen and (max-width: 993px) {
+    header {
+        margin: 0;
+
+        nav {
+            ul {
+                display: none !important;
+            }
+        }
+
+
+        .main_container {
+            padding: 30px 0;
+            margin: 0 30px;
+            border-bottom: 1px solid #CBCBCB;
+        }
+    }
+
+    .home {
+        padding: 50px 0;
+        text-align: center;
+
+        .home_bg {
+            bottom: 0;
+        }
+
+        h1 {
+            font-size: 47px;
+            line-height: 57px;
+        }
+
+        p {
+            font-size: 11px;
+            line-height: 12px;
+        }
+
+        .home_statistic {
+            gap: 25px;
+            justify-content: center;
+
+            h6 {
+                font-size: 25px;
+                line-height: 30px;
+            }
+        }
+
+        .home_btns {
+            margin: 20px 0;
+            justify-content: center;
+        }
+    }
+
+    .nft {
+        h3 {
+            font-size: 30px;
+            line-height: 47px;
+            margin-bottom: 15px;
+        }
+
+        .home_slider_btns {
+            margin: 15px auto 0 auto;
+        }
+
+        .main_btn {
+            border-radius: 5px;
+            height: 40px;
+            font-size: 9px;
+            line-height: 15px;
+            padding: 5px 20px;
+        }
+    }
+
+    .marketplace {
+        padding: 50px 0;
+
+        h3 {
+            font-size: 30px;
+            line-height: 47px;
+            margin-bottom: 15px;
+        }
+
+        .marketplace_btns  {
+            gap: 10px;
+            margin-bottom: 30px;
+
+            button {
+                border-radius: 5px;
+                height: 40px;
+                padding: 5px 10px;
+            }
+        }
+
+        .marketplace_cards {
+            gap: 30px;
+        }
+
+        .main_card {
+            width: calc(100% / 3 - 20px);
+
+            .main_btn {
+                border-radius: 5px;
+                height: 40px;
+                font-size: 9px;
+                line-height: 15px;
+                padding: 5px 20px;
+            }
+        }
+
+        .marketplace_cards_link {
+            margin-top: 20px;
+        }
+    }
+
+    .create {
+        position: relative;
+        margin-bottom: 250px;
+
+        h3 {
+            font-size: 30px;
+            line-height: 47px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 11px;
+            line-height: 12px;
+            margin-bottom: 20px;
+        }
+
+        .create_blocks {
+            padding: 21px 40px 80px 40px;
+            border-radius: 20px;
+        }
+
+        .create_text {
+            text-align: center;
+            width: 100%;
+            padding: 0;
+        }
+
+        .create_btns {
+            justify-content: center;
+            gap: 10px;
+
+            button {
+                border-radius: 5px;
+                height: 40px;
+                font-size: 9px;
+                line-height: 15px;
+                padding: 5px 20px;
+            }
+        }
+
+        .create_img {
+            width: 266px;
+            position: absolute;
+            bottom: -60%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+
+    footer {
+        padding: 30px 0;
+
+        .main_container {
+            flex-direction: column;
+        }
+
+        .footer_link {
+            gap: 25px;
+        }
+    }
+} 
+
+@media only screen and (max-width: 769px) {
+    .marketplace {
+        .main_card {
+            width: calc(100% / 2 - 15px);
+        }
+    }
+} 
+
+@media only screen and (max-width: 576px) {
+    .marketplace {
+
+        .marketplace_btns {
+            flex-wrap: wrap;
+        }
+
+        .main_card {
+            width: calc(100%);
+        }
+    }
+} 

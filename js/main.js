@@ -10,7 +10,8 @@ let swiper = new Swiper(".homeSwiper", {
 
 // home_slider
 let swiper2 = new Swiper(".nftSwiper", {
-    spaceBetween: 40,
+    spaceBetween: 20,
+    slidesPerView: 1.80,
     centeredSlides: true,
     initialSlide: 1,
     navigation: {
